@@ -18,7 +18,7 @@ public class FileConverterToUTF8 {
 	public static void main(String[] args) throws IOException {
 
 		if (args.length < 2) {
-			System.err.println("useage >>> java -jar FileConverterToUTF8.jar [formFilePath] [toFilePath]");
+			System.err.println("usage >>> java -jar FileConverterToUTF8.jar [formFilePath] [toFilePath]");
 			return;
 		}
 
